@@ -1,4 +1,6 @@
-namespace BlazorDual.BlazorServer.Data
+using System;
+
+namespace BlazorDual.Shared.Models
 {
     public class WeatherForecast
     {

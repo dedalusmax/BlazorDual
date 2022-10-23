@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32819.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorDual.BlazorServer", "BlazorDual.BlazorServer\BlazorDual.BlazorServer.csproj", "{9FF7E16E-E6B6-405F-924B-3F336D3D594C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorDual.BlazorServer", "BlazorDual.BlazorServer\BlazorDual.BlazorServer.csproj", "{9FF7E16E-E6B6-405F-924B-3F336D3D594C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorDual.BlazorWasm.Server", "BlazorDual.BlazorWasm\Server\BlazorDual.BlazorWasm.Server.csproj", "{7B5C4C3C-18CB-4D7B-8C95-CE0F21E4A1D7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorDual.BlazorWasm.Server", "BlazorDual.BlazorWasm\Server\BlazorDual.BlazorWasm.Server.csproj", "{7B5C4C3C-18CB-4D7B-8C95-CE0F21E4A1D7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorDual.BlazorWasm.Client", "BlazorDual.BlazorWasm\Client\BlazorDual.BlazorWasm.Client.csproj", "{8D5A9450-F84C-40BE-8169-BAD4DBBCFA67}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorDual.BlazorWasm.Client", "BlazorDual.BlazorWasm\Client\BlazorDual.BlazorWasm.Client.csproj", "{8D5A9450-F84C-40BE-8169-BAD4DBBCFA67}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorDual.BlazorWasm.Shared", "BlazorDual.BlazorWasm\Shared\BlazorDual.BlazorWasm.Shared.csproj", "{8A88443A-335F-4388-95B3-5BBF0A44A793}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorDual.Shared", "BlazorDual.Shared\BlazorDual.Shared.csproj", "{682F3F28-088C-4FD2-AEC8-E9FC02F926F7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,10 +29,10 @@ Global
 		{8D5A9450-F84C-40BE-8169-BAD4DBBCFA67}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8D5A9450-F84C-40BE-8169-BAD4DBBCFA67}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8D5A9450-F84C-40BE-8169-BAD4DBBCFA67}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8A88443A-335F-4388-95B3-5BBF0A44A793}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8A88443A-335F-4388-95B3-5BBF0A44A793}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8A88443A-335F-4388-95B3-5BBF0A44A793}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8A88443A-335F-4388-95B3-5BBF0A44A793}.Release|Any CPU.Build.0 = Release|Any CPU
+		{682F3F28-088C-4FD2-AEC8-E9FC02F926F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{682F3F28-088C-4FD2-AEC8-E9FC02F926F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{682F3F28-088C-4FD2-AEC8-E9FC02F926F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{682F3F28-088C-4FD2-AEC8-E9FC02F926F7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
