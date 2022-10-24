@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorDual.BlazorWasm.Clien
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorDual.Shared", "BlazorDual.Shared\BlazorDual.Shared.csproj", "{682F3F28-088C-4FD2-AEC8-E9FC02F926F7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorDual.Components", "BlazorDual.Components\BlazorDual.Components.csproj", "{58F34E83-BA57-4E19-858F-59126BD8E999}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorDual.Components", "BlazorDual.Components\BlazorDual.Components.csproj", "{58F34E83-BA57-4E19-858F-59126BD8E999}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorDual.Library", "BlazorDual.Library\BlazorDual.Library.csproj", "{E44A080F-78AA-4CAB-A065-E4E009992361}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{58F34E83-BA57-4E19-858F-59126BD8E999}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{58F34E83-BA57-4E19-858F-59126BD8E999}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{58F34E83-BA57-4E19-858F-59126BD8E999}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E44A080F-78AA-4CAB-A065-E4E009992361}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E44A080F-78AA-4CAB-A065-E4E009992361}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E44A080F-78AA-4CAB-A065-E4E009992361}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E44A080F-78AA-4CAB-A065-E4E009992361}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,4 +1,4 @@
-using BlazorDual.BlazorServer.Services;
+using BlazorDual.Library.Services;
 using BlazorDual.Shared.Services;
 
 var builder = WebApplication.CreateBuilder(args);

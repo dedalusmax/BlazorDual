@@ -1,7 +1,7 @@
 using BlazorDual.Shared.Models;
 using BlazorDual.Shared.Services;
 
-namespace BlazorDual.BlazorWasm.Server.Services
+namespace BlazorDual.Library.Services
 {
     public class WeatherForecastService : IWeatherForecastService
     {
