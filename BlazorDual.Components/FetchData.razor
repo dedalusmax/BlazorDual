@@ -4,7 +4,7 @@
 
 @using BlazorDual.Shared.Models
 @using BlazorDual.Shared.Services
-@inject WeatherForecastService ForecastService
+@inject IWeatherForecastService _service
 
 <h1>Weather forecast</h1>
 
@@ -44,6 +44,6 @@ else
 
     protected override async Task OnInitializedAsync()
     {
-        forecasts = await ForecastService.GetForecastAsync(DateTime.Now);
+        forecasts = await _service.GetForecastAsync(DateTime.Now);
     }
 }

@@ -1,11 +1,9 @@
 using BlazorDual.Shared.Models;
-using System;
-using System.Linq;
-using System.Threading.Tasks;
+using BlazorDual.Shared.Services;
 
-namespace BlazorDual.Shared.Services
+namespace BlazorDual.BlazorWasm.Server.Services
 {
-    public class WeatherForecastService
+    public class WeatherForecastService : IWeatherForecastService
     {
         private static readonly string[] Summaries = new[]
         {
